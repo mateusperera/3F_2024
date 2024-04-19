@@ -3,7 +3,7 @@
 --verde: #33ff00;
 --branco: #ffffff;
 --botao-ativo:#a200ff;
---botao-inativo:#00ffff;
+--botao-inativo:#5512f3;
 --botao-fundo:#00aeff;
 
 }
@@ -22,5 +22,28 @@ span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+.titulo-principal{
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+}
+
+.botao{
+    background-color: #a012f3;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    font-size: 18px;
+    width: 100%;
+    border-bottom: 4px solid #5512f3;
+    border-left: 2px  solid #5512f3;
+    border-right: 2px solid #5512f3;
 
 }
